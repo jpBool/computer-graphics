@@ -16,8 +16,7 @@ int main(int argc, char* argv[])
 
     // Adicionado o sinal de '='
     cv::Mat imagem_lida = cv::imread(file_path, cv::IMREAD_COLOR);
-
-    int num_linhas = 400;
+aula01/codigo/src/atividade02.cpp
     int num_cols = 500;
 
     cv::Mat img_synth(num_linhas, num_cols, CV_8UC1, cv::Scalar(0));
